@@ -8,7 +8,8 @@
     "start": "node dist/index.js",
     "dev": "node dist/index.js",
     "build": "tsc -b",
-    "serve": "nodemon"
+    "serve": "nodemon",
+    "postinstall": "prisma generate --schema=src/db/prisma/schema.prisma"
   },
   "keywords": [],
   "author": "",
