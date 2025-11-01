@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "tsc -b src/index.ts",
+    "start": "node dist/index.js",
     "dev": "node dist/index.js",
     "build": "tsc -b",
     "serve": "nodemon"
