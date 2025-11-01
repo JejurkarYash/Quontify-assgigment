@@ -85,7 +85,7 @@ const WatchList = () => {
     }
 
     return (
-        <div className="min-h-screen w-screen bg-black text-zinc-100 px-4  sm:p-6 lg:p-8 flex items-center sm:justify-cente0r lg:justify-start  ">
+        <div className="min-h-screen w-screen bg-black text-zinc-100 px-4 py-6 sm:p-6 lg:p-8 flex items-center sm:justify-cente0r lg:justify-start  ">
             <div className="w-full max-w-6xl  px-6 ">
                 {/* Header */}
                 <div className="flex flex-col items-center sm:flex-row sm:items-center sm:justify-between gap-4 mb-6 sm:mb-8">
